@@ -2,13 +2,13 @@ import { useState } from 'react';
 import './calculator.css';
 
 function Calculator() {
-  const [a, setA] = useState("");
-  const [b, setB] = useState("");
-  const [c, setC] = useState("");
   const [heronResult, setHeronResult] = useState("");
   const [angleA, setAngleA] = useState("");
   const [sideAamb, setSideAamb] = useState("");
   const [sideBamb, setSideBamb] = useState("");
+  const [a, setA] = useState("");
+  const [b, setB] = useState("");
+  const [c, setC] = useState("");
   const [ambiguousResult, setAmbiguousResult] = useState("");
   const [rootGuess, setRootGuess] = useState("");
   const [newtonResult, setNewtonResult] = useState("");
