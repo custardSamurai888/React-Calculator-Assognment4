@@ -1,14 +1,24 @@
-import './App.css'
-import Calculator from './components/MainCalculator'
+import "./components/Calculator.css";
+import Heron from "./components/Heron";
+import Ambiguous from "./components/Ambiguous";
+import Newton from "./components/Newton";
+import Polynomial from "./components/Polynomial";
+
 
 function App() {
   
 
   return (
-    <Calculator/>
-     
-    
-  )
+    <div className="container">
+    <>
+      <Heron />
+      <Ambiguous />
+      <Newton />
+      <Polynomial />
+    </>
+    </div>
+  );
+  
 }
 
 export default App
